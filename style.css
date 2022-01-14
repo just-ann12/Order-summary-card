@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    min-height: 100vh;
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat ;
+    background-size: contain;
+    background-color: hsl(225, 100%, 98%);
+    position: relative;
+    font-size: 16px;
+}
+
+.picture{
+    min-width: 100%;
+}
+button{
+    font-family: 'Red Hat Display', serif-serif;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.card{
+    background-color: #fff;
+    box-shadow: 3px 3px 30px hsl(228, 45%, 44%, 0.15);
+}
+.text-content{
+    padding: 50px;
+    text-align: center;
+}
+h1{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.decription{
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 30px;
+}
+.plan{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.plan-left{
+    display: flex;
+    text-align: left;
+}
+.plan-left div{
+    margin-left: 20px;
+
+}
+.plan-left div span{
+    font-weight: 900;
+    color:hsl(223, 47%, 23%);
+
+}
+.plan-left div p{
+    color:hsl(224, 23%, 55%);
+}
+.button-change{
+    color:hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+.button-change:hover{
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-weight: 700;
+}
+.button-payment{
+    display: block;
+    color: #fff;
+    background-color:hsl(245, 75%, 52%);
+    padding: 20px 0;
+    border-radius: 12px;
+    margin: 30px 0;
+}
+.button-payment:hover{
+    opacity: 0.7;
+}
+
+.button-cancel{
+    color: hsl(224, 23%, 55%);
+    
+}
+.button-cancel:hover{
+    color: hsl(223, 47%, 23%);
+}
